@@ -3,7 +3,9 @@ from dash import dcc, html, Input, Output
 import dash_bootstrap_components as dbc
 from server import app
 from pages import mainpage, selectgr, groupAnalysis
+
 import pandas as pd
+
 
 
 TOPBAR_STYLE = {
